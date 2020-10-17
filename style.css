@@ -1,13 +1,98 @@
-    /* ####################################################
-    :: Template Name: Essence - Fashion Ecommerce Template
-    :: Author: Colorlib
-    :: Author URL: https://colorlib.com
-    :: Description: Essence is smart & elegant fashion e-commerce Template. It's suitable for all e-commerce business platform.
-    :: Version: 1.0.0
-    :: Created: April 27, 2018
-    :: Last Updated: May 2, 2018
-    #################################################### */
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
-    /* ---------------------------------------
-    ##### - PLACE YOUR CUSTOM CSS HERE - #####
-    --------------------------------------- */
+#nav{
+    width: 100%;
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: white;
+}
+#nav h3{
+    border-bottom: 2px solid goldenrod;
+    display: inline;
+    padding-left: 10px;
+}
+#nav .links{
+    float: right;
+    position: relative;
+    right: 50px;
+}
+#nav .links ul li{
+    display: inline;
+    list-style-type: none;
+}
+#nav .links ul li a{
+    text-decoration: none;
+    color: goldenrod;
+    font-size: 20px;
+    font-family:  sans-serif;
+    padding: 5px;
+    padding-right: 10px;
+}
+#nav .links ul li a:hover{
+    color: limegreen;
+    background-color: rgb(255, 255, 255);
+    
+    font-weight: bolder;
+}
+#cards{
+    background-color: rgb(207, 223, 238);
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#cards .c1{
+    width: 30%;
+    height: 500px;
+    padding: 20px;
+    float: left;
+    background-color: white;
+    margin-left: 30px;
+}
+.clearfix::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+#cards .c1 img{
+    width: 100%;
+    height: 50%;
+}
+#cards .c1 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 10px;
+}
+#cards .c1 a button{
+  padding: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#cards .c1 h3{
+    font-size: 20px;
+    color: blue;
+    padding-top: 30px;
+    font-family: cursive;
+}
+#foot{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-family: monospace;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#foot h1{
+    text-align: center;
+}
+@media (max-width:968px){
+    #cards .c1{
+        float: none;
+        width: 80%;
+        margin: 0 auto;
+        margin-top: 8px;
+    }
+}
